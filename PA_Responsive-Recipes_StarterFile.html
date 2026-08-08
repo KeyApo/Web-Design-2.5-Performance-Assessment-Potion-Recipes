@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Author: Keymy Aponte
+        Date: 8/8/2026
+        Purpose: 2.5 Performance Assessment
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potion Recipe Book</title>
+    <link rel="stylesheet" href="PA_Responsive-Recipes_StarterFile.css">
+</head>
+
+<body>
+    <header>
+        <h1>Potion Recipe Book</h1>
+        <p>A collection of magical brews and their ingredients</p>
+    </header>
+    
+    <main>
+        <section class="potion-container" aria-label="Potion recipes">
+    
+            <!-- 
+                POTION CARD:
+                - Each <article> represents ONE potion
+                - You may DUPLICATE this entire article then UPDATE the contents to add more potions
+                - Keep structure consistent for all potions
+            -->
+
+            <article class="potion">
+                <header>
+                    <!-- POTION NAME -->
+                    <h2>Potion of Evasiveness</h2>
+                </header>
+    
+                <!-- POTION DESCRIPTION -->
+                <p>Increases the user's agility and movement speed.</p>
+    
+                <!-- INGREDIENT TABLE -->
+                <section>
+                    <h3>Ingredients</h3>
+                    <table>
+                        <caption>Potion of Evasiveness Ingredients</caption>
+                        
+                        <thead>
+                            <tr>
+                                <th scope="col">Ingredient</th>
+                                <th scope="col">Quantity</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td>Butterfly Wings</td>
+                                <td>A pinch of ground up powder</td>
+                            </tr>
+                            <tr>
+                                <td>Gnome Milk</td>
+                                <td>1 vial of boiled gnome mother milk</td>
+                            </tr>
+                            <tr>
+                                <td>Blue Herb</td>
+                                <td>3 dried specimens</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </article>
+
+            <article class="potion">
+                <header>
+                    <!-- POTION NAME -->
+                    <h2>Potion of Youth</h2>
+                </header>
+    
+                <!-- POTION DESCRIPTION -->
+                <p>Restores youth and vitality to the user.</p>
+    
+                <!-- INGREDIENT TABLE -->
+                <section>
+                    <h3>Ingredients</h3>
+                    <table>
+                        <caption>Potion of Youth Ingredients</caption>
+                        
+                        <thead>
+                            <tr>
+                                <th scope="col">Ingredient</th>
+                                <th scope="col">Quantity</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td>Unicorn Horn</td>
+                                <td>One ground up horn. Must be ethically sourced!</td>
+                            </tr>
+                            <tr>
+                                <td>Baby's Breath</td>
+                                <td>10 dried up flowers</td>
+                            </tr>
+                            <tr>
+                                <td>Fairy Dust</td>
+                                <td>A pinch of shimmering dust</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </article>
+
+            <article class="potion">
+                <header>
+                    <!-- POTION NAME -->
+                    <h2>Transmogrification Potion</h2>
+                </header>
+    
+                <!-- POTION DESCRIPTION -->
+                <p>Transforms the user into a different form temporarily.</p>
+    
+                <!-- INGREDIENT TABLE -->
+                <section>
+                    <h3>Ingredients</h3>
+                    <table>
+                        <caption>Transmogrification Potion Ingredients</caption>
+                        
+                        <thead>
+                            <tr>
+                                <th scope="col">Ingredient</th>
+                                <th scope="col">Quantity</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td>Firefly Thorax</td>
+                                <td>1 Thorax</td>
+                            </tr>
+                            <tr>
+                                <td>Bone of a Giant</td>
+                                <td>Two teaspoons of ground up bone</td>
+                            </tr>
+                            <tr>
+                                <td>Oil</td>
+                                <td>Five tablespoons of hot oil</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </article>
+
+            <article class="potion">
+                <header>
+                    <!-- POTION NAME -->
+                    <h2>Love Potion</h2>
+                </header>
+    
+                <!-- POTION DESCRIPTION -->
+                <p>A morally dubious that induces feelings of romantic attraction in the target.</p>
+    
+                <!-- INGREDIENT TABLE -->
+                <section>
+                    <h3>Ingredients</h3>
+                    <table>
+                        <caption>Love Potion Ingredients</caption>
+                        
+                        <thead>
+                            <tr>
+                                <th scope="col">Ingredient</th>
+                                <th scope="col">Quantity</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td>Lock of a Lover's Hair</td>
+                                <td>A few strands of target's hair.</td>
+                            </tr>
+                            <tr>
+                                <td>Gem of Love</td>
+                                <td>1 crystal found in the Whispering Woods</td>
+                            </tr>
+                            <tr>
+                                <td>Moon Sugar</td>
+                                <td>A table spoon of crystallized moonlight</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </article>
+
+            <article class="potion">
+                <header>
+                    <!-- POTION NAME -->
+                    <h2>Healing Potion</h2>
+                </header>
+    
+                <!-- POTION DESCRIPTION -->
+                <p>Restores a moderate amount of health.</p>
+    
+                <!-- INGREDIENT TABLE -->
+                <section>
+                    <h3>Ingredients</h3>
+                    <table>
+                        <caption>Healing Potion Ingredients</caption>
+                        
+                        <thead>
+                            <tr>
+                                <th scope="col">Ingredient</th>
+                                <th scope="col">Quantity</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td>Red Herb</td>
+                                <td>2 dried specimens</td>
+                            </tr>
+                            <tr>
+                                <td>Crystal Water</td>
+                                <td>1 vial</td>
+                            </tr>
+                            <tr>
+                                <td>Glow Mushroom</td>
+                                <td>3 caps without stems</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </article>
+    
+            <!-- POTION CARD -->
+            <article class="potion">
+    
+                <header>
+                    <h2>Invisibility Potion</h2>
+                </header>
+    
+                <p>Grants temporary invisibility.</p>
+    
+                <section>
+                    <h3>Ingredients</h3>
+    
+                    <table>
+                        <caption>Invisibility Potion Ingredients</caption>
+    
+                        <thead>
+                            <tr>
+                                <th scope="col">Ingredient</th>
+                                <th scope="col">Quantity</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td>Ghost Leaf</td>
+                                <td>4 leaves</td>
+                            </tr>
+                            <tr>
+                                <td>Shadow Essence</td>
+                                <td>2 drops</td>
+                            </tr>
+                            <tr>
+                                <td>Nightshade</td>
+                                <td>1 plant with roots</td>
+                            </tr>
+                        </tbody>
+                    </table>    
+                </section>
+            </article>
+            
+        </section>
+    </main>
+    
+    <footer>
+        <p>Responsive Recipes Vol. 2026</p>
+        <p>Potion Archivist: KeyApo6946</p>
+    </footer>
+
+</body>
+</html>
